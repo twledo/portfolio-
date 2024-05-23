@@ -35,8 +35,8 @@
         background-color: var(--background-color);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 50px;
-        margin: 0 auto; /* Centralizar horizontalmente */
-        max-width: 1200px; /* Definir uma largura máxima */
+        margin: 0 auto;
+        max-width: 1200px;
     }
 
     header {
@@ -332,8 +332,8 @@
         background-color: var(--background-color);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 50px;
-        margin: 0 auto; /* Centralizar horizontalmente */
-        max-width: 1200px; /* Definir uma largura máxima */
+        margin: 0 auto;
+        max-width: 760px;
     }
 
     header {
