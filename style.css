@@ -323,7 +323,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     html {
         scroll-behavior: smooth;
     }
