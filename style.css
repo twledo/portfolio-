@@ -337,7 +337,6 @@
 
     header {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         height: 300px;
         margin-top: 40px;
@@ -388,16 +387,13 @@
     }
 
     .botao {
-        position: fixed;
         top: 0;
         left: 0;
-        display: flex;
-        justify-content: center;
-        gap: 10%;
+        display: block;
         margin: 0;
         margin-bottom: 0;
         background-color: var(--primary-color);
-        width: 100%;
+        max-width: 100%;
         list-style: none;
         font-weight: bold;
         padding: 10px 0px;
