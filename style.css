@@ -323,7 +323,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     html {
         scroll-behavior: smooth;
     }
@@ -333,7 +333,7 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 50px;
         margin: 0 auto;
-        max-width: 760px;
+        max-width: 576px;
     }
 
     header {
@@ -341,13 +341,13 @@
         justify-content: space-between;
         align-items: center;
         height: 300px;
-        margin: 70px 0 auto;
+        margin-top: 70px;
         margin-bottom: 20px;
     }
 
     #nome {
+        margin-left: 8%;
         animation: text-shadow-pop-left 2.5s both;
-        margin-left: 10%;
         line-height: 100px;
         color: var(--w);
         letter-spacing: 2px;
@@ -366,7 +366,7 @@
     }
 
     h1 {
-        font-size: 100px;
+        font-size: 130px;
     }
 
     .foto {
@@ -377,6 +377,7 @@
         border: 5px solid var(--primary-color);
         animation: slide-in-fwd-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         z-index: -1;
+        visibility: hidden;
     }
 
     .linha {
