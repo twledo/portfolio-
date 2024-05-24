@@ -332,8 +332,7 @@
         background-color: var(--background-color);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-bottom: 50px;
-        margin: 0 auto;
-        max-width: 576px;
+        max-width: 500px;
     }
 
     header {
@@ -341,14 +340,13 @@
         justify-content: space-between;
         align-items: center;
         height: 300px;
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 20px;
     }
 
     #nome {
-        margin-left: 8%;
         animation: text-shadow-pop-left 2.5s both;
-        line-height: 100px;
+        line-height: 80px;
         color: var(--w);
         letter-spacing: 2px;
         z-index: -1;
@@ -366,7 +364,7 @@
     }
 
     h1 {
-        font-size: 130px;
+        font-size: 90px;
     }
 
     .foto {
