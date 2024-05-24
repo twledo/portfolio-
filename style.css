@@ -341,12 +341,11 @@
         align-items: center;
         height: 300px;
         margin-top: 40px;
-        margin-bottom: 20px;
     }
 
     #nome {
         animation: text-shadow-pop-left 2.5s both;
-        line-height: 80px;
+        line-height: 75px;
         color: var(--w);
         letter-spacing: 2px;
         z-index: -1;
@@ -364,7 +363,7 @@
     }
 
     h1 {
-        font-size: 90px;
+        font-size: 80px;
     }
 
     .foto {
@@ -380,11 +379,12 @@
 
     .linha {
         border: 1px solid var(--w);
-        width: 200%;
+        width: 100%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         z-index: -1;
+        visibility: hidden;
     }
 
     .botao {
@@ -418,7 +418,7 @@
     section {
         min-height: auto;
         color: var(--primary-color);
-        margin: 55px 0 0 0;
+        margin: 20px 0 0 0;
         scroll-margin-top: 75px;
     }
 
