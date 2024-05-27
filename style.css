@@ -325,7 +325,7 @@
     }
 }
 
-@media (max-width: 396px) { 
+@media (max-width: 450px) { 
     html {
         scroll-behavior: smooth;
         max-width: 100%;
@@ -342,18 +342,17 @@
     }
 
     header {
-        display: flex;
-        align-items: center;
-        height: 300px;
-        margin-top: 40px;
+        margin: 0 auto;
+        height: 200px;
     }
 
     #nome {
         animation: text-shadow-pop-left 2.5s both;
-        line-height: 75px;
+        line-height: 65px;
         color: var(--w);
         letter-spacing: 2px;
         z-index: -1;
+        margin: 0 auto;
     }
 
     p, ul {
@@ -368,7 +367,10 @@
     }
 
     h1 {
-        font-size: 80px;
+        font-size: 70px;
+        margin: 0%;
+        margin-top: 20px;
+        margin-left: 5%;
     }
 
     .foto {
