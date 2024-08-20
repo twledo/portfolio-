@@ -357,7 +357,8 @@
 
     p, ul {
         color: var(--w);
-        margin: 0;
+        margin: 0 auto;
+        padding: 0 auto;
     }
 
     a {
@@ -368,9 +369,8 @@
 
     h1 {
         font-size: 70px;
-        margin: 0%;
-        margin-top: 20px;
-        margin-left: 5%;
+        text-align: center;
+        margin-top: 3%;
     }
 
     .foto {
@@ -412,6 +412,8 @@
         border-radius: 20px;
         transition: background-color 1s;
         padding: 3px 9px;
+        display: inline-flex;
+        max-width: auto;
     }
 
     .botao li:hover {
@@ -442,25 +444,28 @@
         border-radius: 25px;
         padding: 3px 9px;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 
     .container {
-        display: flex;
         justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-width: 100%;
     }
-
+    
     h4 {
         color: var(--w);
-        font-size: 25px;
+        font-size: 32px;
         text-decoration: underline var(--primary-color);
-        margin: 5px 0 5px 0;
+        margin: 2% 0;
+        min-width: 100%;
     }
 
     p {
         font-size: 22px;
         max-width: 396px;
-        text-align: justify;
+        text-align: center;
         margin: 10px 7% 5% 7%;
         font-weight: lighter;
     }
@@ -468,9 +473,7 @@
     h5 {
         color: var(--w);
         font-size: 24px;
-        margin-left: 13%;
-        margin-top: 2%;
-        margin-bottom: 1%;
+        margin: 1% 7% 0% 7%;
         text-decoration: underline solid var(--primary-color) 3px;
     }
     
@@ -479,9 +482,8 @@
         width: 200px;
         margin: 0 auto;        
         justify-content: space-between;
-        margin-top: 1.3%;
-        margin-bottom: 4%;
-
+        margin-top: 3%;
+        margin-bottom: 6%;
     }
 
     .whatsapp {
@@ -534,15 +536,6 @@
         margin-top: 18%;
     }
 
-    .global {
-        list-style: circle;
-        font-size: 22px;
-        max-width: 396px;
-        text-align: justify;
-        margin: 10px 7% 5% 7%;
-        font-weight: lighter;
-    }
-
     #cursos_projetos {
         position: relative;
     }
@@ -552,19 +545,8 @@
     }
     
     .container {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .twobox {
-        display: flex;
-        flex-direction: column; /* Para empilhar os elementos verticalmente */
-        align-items: center; /* Para centralizar verticalmente */
-        flex: 1;
-        padding: 20px;
+        display: inline-block;
+        max-width: 410px;
     }
 
     .programacao {
@@ -587,15 +569,15 @@
         bottom: 0;
         margin-top: 45px;
         animation: slide-in-fwd-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        visibility: hidden;
     }
 
     .cursos { 
         list-style: circle;
         font-size: 22px;
-        max-width: 396px;
-        font-weight: lighter;
-        padding-left: 10px;
-        margin-left: 10px;
+        max-width: 400px;
+        font-weight: lighter;   
+        text-align: center;
     }
     
     #contato {
@@ -617,8 +599,41 @@
     h6 {
         color: var(--w);
         font-size: 24px;    
-        margin-top: 2%;
-        margin-bottom: 1.5%;
+        margin-top: 5%;
+        margin-bottom: 1%;
         text-decoration: underline solid var(--primary-color) 3px;
+        text-align: center;
+        max-width: 430px;
+    }
+
+    ul.cursos {
+        padding-left: 0;
+        min-width: 400px;
+        justify-content: center;
+    }
+
+    .twobox {
+        min-width: 430px;
+    }
+
+    .topicos {
+        font-size: 22px;
+        max-width: 396px;
+        text-align: left;
+        margin: 10px 7% 5% 7%;
+        font-weight: lighter;
+    }
+
+    ul.programacao {
+        margin-bottom: 1%;
+    }
+
+    nav {
+        display: none;
+        height: -430px;
+    }
+
+    .github {
+        margin-top: 15px;
     }
 }
