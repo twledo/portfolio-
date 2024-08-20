@@ -104,7 +104,7 @@
         margin-bottom: 0;
         background-color: var(--primary-color);
         width: 100%;
-        list-style: inside;
+        list-style: none;
         font-weight: bold;
         padding: 10px 0px;
     }
