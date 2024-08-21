@@ -552,7 +552,7 @@
     .programacao {
         list-style: inside;
         font-size: 22px;
-        max-width: 396px;
+        max-width: 430px;
         font-weight: lighter;
         padding-left: 0px;
         margin-left: 0px;
@@ -631,7 +631,6 @@
 
     nav {
         display: none;
-        height: -430px;
     }
 
     .github {
